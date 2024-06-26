@@ -1,10 +1,14 @@
 import streamlit as st
 import pickle
 import string
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+from joblib import load
 
 
 
-
+ps = PorterStemmer()
 
 
 def transform_text(text):
