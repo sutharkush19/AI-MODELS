@@ -5,7 +5,6 @@ import string
 
 
 
-ps = PorterStemmer()
 
 
 def transform_text(text):
